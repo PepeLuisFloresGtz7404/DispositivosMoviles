@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_modificar"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Modificar pedido" />
+        <item
+            android:id="@+id/nav_historial"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Historial de pedidos" />
+        <item
+            android:id="@+id/nav_ayuda"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Ayuda" />
+        <item
+            android:id="@+id/nav_cancelar"
+            android:icon="@android:drawable/ic_menu_close_clear_cancel"
+            android:title="Cancelar pedido" />
+    </group>
+
+</menu>
